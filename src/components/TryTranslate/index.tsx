@@ -11,9 +11,9 @@ const options =[
     "vibor 2",
     "vibor 3"
 ]
-const [selectedValue, setSelectedValue] = useState(options[0]);
-const TryTranslate: FC = () => {
 
+const TryTranslate: FC = () => {
+    const [selectedValue, setSelectedValue] = useState(options[0]);
     return (
         <div className="grid grid-cols-12">
             <div className="col-start-3 col-end-12 grid grid-cols-9">
