@@ -1,6 +1,6 @@
 # AnomangaAI 
 
-Lead i pidoras: [HipsterJo](https://vk.com/atapin40) (он нам не платит)
+Lead: [HipsterJo](https://vk.com/atapin40) (он нам не платит)
 
 Middle: [HipsterJoWeb3](https://github.com/HipsterJoWeb3)
 
