@@ -6,13 +6,15 @@ import Select from "../../UI/Select";
 import Radio from "../../UI/Radio";
 
 
-const options =[
+const options = [
     "выбор 1",
     "vibor 2",
     "vibor 3"
 ]
-const [selectedValue, setSelectedValue] = useState(options[0]);
+
 const TryTranslate: FC = () => {
+
+    const [selectedValue, setSelectedValue] = useState(options[0]);
 
     return (
         <div className="grid grid-cols-12">
