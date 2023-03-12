@@ -2,6 +2,10 @@
 
 Lead: [HipsterJo](https://vk.com/atapin40) (он нам не платит)
 
+# Это наш лид
+
+![](https://res.cloudinary.com/rttj/image/upload/v1678653620/avatars/tolyan_nmpinf.jpg)
+
 Middle: [HipsterJoWeb3](https://github.com/HipsterJoWeb3)
 
 Junior: [Hipro11](https://github.com/hirpo11)
