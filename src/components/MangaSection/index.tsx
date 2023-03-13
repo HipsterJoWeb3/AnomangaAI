@@ -13,7 +13,7 @@ const MangaSection: FC = () => {
                     <ButtonRounded classes="h-fit py-3 px-5 text-white bg-black">перейти к каталогу</ButtonRounded>
                 </Link>
             </div>
-            <MangaList classes={"grid-cols-4"}/>
+            <MangaList classes={"grid-cols-4"} hasButton={false}  cardsToLoad={8} />
         </div>
     )
 }
