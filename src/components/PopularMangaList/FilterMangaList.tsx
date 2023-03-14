@@ -3,7 +3,7 @@ import Select from "../../UI/Select";
 import { useState } from "react";
 import InputRange from "./InputRange";
 
-const optionsGenres = ["нигерскоwawdе порево", "анал таляна"];
+const optionsGenres = ["манга", "манхва"];
 const optionsTags = ["2", "3"];
 
 const FilterMangaList: FC = () => {

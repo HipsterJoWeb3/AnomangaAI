@@ -1,5 +1,4 @@
 import { FC, useState } from 'react';
-import { Link } from 'react-router-dom';
 import Card from './Card';
 import ButtonRounded from '../../UI/ButtonRounded';
 import ArrowButtomIcon from '../../icons/ArrowButtomIcon';
@@ -23,7 +22,7 @@ const MangaList: FC<MangaList> = ({ classes, hasButton = true, cardsToLoad = 6 }
   };
 
   return (
-    <div className={`grid col-start-3 col-end-11 gap-x-5 gap-y-10 ${classes}`}>
+    <div className={`gap-x-5 gap-y-10 grid ${classes}`}>
       {renderCards()}
       {hasButton && (
         <div className="flex justify-end items-start col-start-3 col-end-4" onClick={handleLoadMoreClick}>

@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Logo: FC = () => {
 
     return (
-        <Link to="/" >
+        <Link to="/user" >
             <div className="border border-black w-10 h-10 rounded-full" />
         </Link>
     )
