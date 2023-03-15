@@ -3,7 +3,9 @@ import { FC } from 'react'
 const TranslatePage: FC = () => {
 
     return (
-        <div>TranslatePage</div>
+        <div className="grid grid-cols-12">
+
+        </div>
     )
 }
 

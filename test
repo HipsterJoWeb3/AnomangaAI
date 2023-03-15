@@ -1,0 +1,66 @@
+[33mcommit b696cddeac77c3e206979ea24634e89b0c597e5f[m[33m ([m[1;36mHEAD -> [m[1;32mtest[m[33m, [m[1;32mmain[m[33m, [m[1;32mavecoder[m[33m)[m
+Author: Avecoder <foravecode@gmail.com>
+Date:   Sun Mar 12 01:21:33 2023 +0300
+
+    test branch
+
+[33mcommit 9cce20117e31595ff1b6adbcdce31e6590365a0c[m
+Author: HipsterJo <102321303+HipsterJo@users.noreply.github.com>
+Date:   Sun Mar 12 01:11:59 2023 +0300
+
+    Update README.md
+
+[33mcommit 38d0a9a6c28b94e4129c2c2a2825515a5b1ca8e3[m
+Author: HipsterJoWeb3 <113521677+HipsterJoWeb3@users.noreply.github.com>
+Date:   Sun Mar 12 01:05:27 2023 +0300
+
+    Delete test.pub
+
+[33mcommit d0fb176f8b9422f5bbfa9672378b0ba7acd1fbcf[m
+Author: HipsterJoWeb3 <113521677+HipsterJoWeb3@users.noreply.github.com>
+Date:   Sun Mar 12 01:05:20 2023 +0300
+
+    Delete test
+
+[33mcommit 513fbed940f86fb03715ae595c410047e2909218[m[33m ([m[1;31morigin/dev[m[33m)[m
+Merge: 5b759ed ceb6089
+Author: Admin <atapintolyan@yandex.ru>
+Date:   Sun Mar 12 01:04:25 2023 +0300
+
+    Merge branch 'main' of github.com:HipsterJoWeb3/AnomangaAI
+
+[33mcommit 5b759edba6ea8fe2b85e265bd8c275a87eb981bf[m
+Author: Admin <atapintolyan@yandex.ru>
+Date:   Sun Mar 12 01:03:30 2023 +0300
+
+    update custom select
+
+[33mcommit ceb6089f5049dea8a5db0bea35dd2b2f01bc1383[m
+Author: HipsterJoWeb3 <113521677+HipsterJoWeb3@users.noreply.github.com>
+Date:   Sun Mar 12 00:16:46 2023 +0300
+
+    Update README.md
+
+[33mcommit 3cd1298311e26674158e3feac4b9ea5716a9ce00[m
+Author: HipsterJoWeb3 <113521677+HipsterJoWeb3@users.noreply.github.com>
+Date:   Sun Mar 12 00:11:44 2023 +0300
+
+    Update README.md
+
+[33mcommit b8b9c58924fa001ad2315556c6d1472f035665bb[m
+Author: HipsterJoWeb3 <113521677+HipsterJoWeb3@users.noreply.github.com>
+Date:   Sun Mar 12 00:09:13 2023 +0300
+
+    Update README.md
+
+[33mcommit 2753a6b3e6976763a6bff22ac556fa65d4088241[m
+Author: HipsterJo <102321303+HipsterJo@users.noreply.github.com>
+Date:   Sun Mar 12 00:08:18 2023 +0300
+
+    Update README.md
+
+[33mcommit 758b6c930951bfb547f45899dfe626eb6cb7c69c[m
+Author: Avecoder <foravecode@gmail.com>
+Date:   Sun Mar 12 00:02:00 2023 +0300
+
+    Мы не обосремся в этот раз
