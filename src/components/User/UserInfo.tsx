@@ -9,13 +9,14 @@ interface UserInfoProps {
   subscriptionDate: string;
 }
 
-const UserInfo: FC<UserInfoProps> = ({ imageUrl, username, subscriptionDate }) => {
+const UserInfo: FC<UserInfoProps> = ({
+  imageUrl,
+  username,
+  subscriptionDate,
+}) => {
   return (
     <div className="col-start-1 col-end-3 flex justify-start flex-col gap-y-5">
-      <UserAvatar
-        classes="w-32 h-32"
-        imageUrl={imageUrl}
-      />
+      <UserAvatar classes="w-32 h-32" imageUrl={imageUrl} />
       <div className="font-bold text-xl">{username}</div>
       <div className="text-sm mb-10">
         подписка <span className="font-bold">Pro</span> до {subscriptionDate}
