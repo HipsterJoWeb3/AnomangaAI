@@ -1,20 +1,12 @@
-import { FC } from 'react'
+import { FC } from "react";
 
 interface ButtonSquareType {
-    classes?: string,
-    children?: any
+  classes?: string;
+  children?: any;
 }
 
-const ButtonSquare: FC<ButtonSquareType> = ({classes, children}) => {
+const ButtonSquare: FC<ButtonSquareType> = ({ classes, children }) => {
+  return <button className={`bg-black rounded ${classes}`}>{children}</button>;
+};
 
-
-    return (
-        <button
-            className={`bg-black rounded ${classes}`}
-        >
-            {children}
-        </button>
-    )
-}
-
-export default ButtonSquare
+export default ButtonSquare;

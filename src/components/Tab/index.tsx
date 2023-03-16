@@ -30,7 +30,7 @@ const Tab: FC<Tab> = ({ selection, page }) => {
           </div>
         ))}
       </div>
-      {page[indexItem]}
+      {page && page[indexItem]}
     </div>
   );
 };

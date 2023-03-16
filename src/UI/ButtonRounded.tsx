@@ -1,20 +1,18 @@
-import React, { FC } from 'react'
+import React, { FC } from "react";
 
 interface ButtonRoundedType {
-    children?: React.ReactNode,
-    classes?: string
+  children?: React.ReactNode;
+  classes?: string;
 }
 
-const ButtonRounded: FC<ButtonRoundedType> = ({children, classes}) => {
+const ButtonRounded: FC<ButtonRoundedType> = ({ children, classes }) => {
+  return (
+    <button
+      className={`text-base border border-black rounded-full hover:bg-black hover:text-white ${classes}`}
+    >
+      {children}
+    </button>
+  );
+};
 
-
-    return (
-        <button
-            className={`text-base border border-black rounded-full hover:bg-black hover:text-white ${classes}`}
-        >
-            {children}
-        </button>
-    )
-}
-
-export default ButtonRounded
+export default ButtonRounded;

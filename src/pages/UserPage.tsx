@@ -4,7 +4,8 @@ import UserInfo from "../components/User/UserInfo";
 import UserManga from "../components/User/UserManga";
 import UserSettings from "../components/User/UserSettings";
 import UserSubscribe from "../components/User/UserSubscribe";
-import UserFriends from "../components/User/UserFriends";
+import UserFriendsList from "../components/User/UserFriendsList";
+import UserTranslateLeafs from "../components/User/UserTranslateLeafs";
 
 const options = [
   "манга",
@@ -14,12 +15,12 @@ const options = [
   "друзья",
 ];
 
-const page = [<UserManga />, <div/>, <UserSubscribe/>, <UserSettings/>, <UserFriends/> ];
+const page = [<UserManga />, <UserTranslateLeafs/>, <UserSubscribe/>, <UserSettings/>, <UserFriendsList/> ];
 
 const UserPage: FC = () => {
   return (
     <div className="grid grid-cols-12">
-      <UserInfo />
+      <UserInfo imageUrl={"../../../src/assets/images/avatar.png"} username={"(.)(.)  <—Makima🥰"} subscriptionDate={"24.5.23"}/>
       <div className="grid col-start-3 col-end-13 flex">
         <Tab selection={options} page={page} />
       </div>
